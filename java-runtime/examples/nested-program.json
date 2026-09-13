@@ -1,0 +1,32 @@
+{
+  "blocks": [
+    {
+      "type": "repeat",
+      "times": 2,
+      "body": [
+        {
+          "type": "move",
+          "steps": 1
+        },
+        {
+          "type": "repeat",
+          "times": 2,
+          "body": [
+            {
+              "type": "turn",
+              "direction": "right"
+            },
+            {
+              "type": "move",
+              "steps": 2
+            }
+          ]
+        },
+        {
+          "type": "say",
+          "text": "done"
+        }
+      ]
+    }
+  ]
+}

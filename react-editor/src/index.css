@@ -1,0 +1,4 @@
+/* Minimal global resets – main styles live in App.css and component CSS */
+body {
+  margin: 0;
+}

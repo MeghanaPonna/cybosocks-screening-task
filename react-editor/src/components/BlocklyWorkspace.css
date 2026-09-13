@@ -1,0 +1,48 @@
+.blockly-container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  background: #f0f7ff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.blockly-toolbar {
+  display: flex;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #e3f2fd;
+  border-bottom: 1px solid #bbdefb;
+}
+
+.btn {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn-clear {
+  background: #ffcdd2;
+  color: #b71c1c;
+}
+
+.btn-clear:hover {
+  background: #ef9a9a;
+}
+
+.blockly-div {
+  flex: 1;
+  width: 100%;
+  min-height: 420px;
+  height: 100%;
+}

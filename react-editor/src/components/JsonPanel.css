@@ -1,0 +1,60 @@
+.json-panel {
+  display: flex;
+  flex-direction: column;
+  background: #1e1e2e;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  min-height: 280px;
+  max-height: 100%;
+}
+
+.json-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: #2a2a3e;
+  border-bottom: 1px solid #3a3a50;
+}
+
+.json-panel-header h2 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #e0e0ff;
+}
+
+.btn-copy {
+  background: #7c4dff;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.btn-copy:hover {
+  background: #651fff;
+}
+
+.btn-copy.copied {
+  background: #43a047;
+}
+
+.json-content {
+  flex: 1;
+  margin: 0;
+  padding: 14px;
+  overflow: auto;
+  font-family: 'SF Mono', 'Fira Code', 'Consolas', 'Courier New', monospace;
+  font-size: 13px;
+  line-height: 1.45;
+  color: #a5d6a7;
+  white-space: pre-wrap;
+  word-break: break-word;
+  background: transparent;
+}

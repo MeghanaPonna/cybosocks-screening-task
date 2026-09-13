@@ -1,0 +1,14 @@
+# Node
+react-editor/node_modules/
+react-editor/dist/
+react-editor/.vite/
+
+# Maven
+java-runtime/target/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+*.log
